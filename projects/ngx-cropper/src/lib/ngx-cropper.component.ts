@@ -218,7 +218,7 @@ export class NgxCropperComponent {
   }
 
   private centerCropper(cropperWidth: number, cropperHeight: number) {
-    const box: HTMLElement = document.getElementById('ngx-photo-editor-img-container')!;
+    const box: HTMLElement = document.getElementById('ngx-cropper-img-container')!;
     const left = box.clientWidth / 2 - (cropperWidth / 2);
     const top = box.clientHeight / 2 - (cropperHeight / 2);
     this.cropper.setCropBoxData({ width: cropperWidth, height: cropperHeight, left, top });
