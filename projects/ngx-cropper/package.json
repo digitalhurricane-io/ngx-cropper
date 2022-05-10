@@ -1,0 +1,37 @@
+{
+  "name": "@digitalhurricane/ngx-cropper",
+  "version": "0.0.1",
+  "description": "An image cropper for Angular",
+  "author": {
+    "name": "Paul Hendricks"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/digitalhurricane-io/ngx-cropper"
+  },
+  "bugs": {
+    "url": "https://github.com/digitalhurricane-io/ngx-cropper/issues"
+  },
+  "homepage": "https://github.com/digitalhurricane-io/ngx-cropper",
+  "keywords": [
+    "angular",
+    "angular 13",
+    "cropper",
+    "cropperjs",
+    "ngx-cropper",
+    "angular cropper",
+    "angular photo editor",
+    "angular image cropper",
+    "image cropper",
+    "popup cropper"
+  ],
+  "peerDependencies": {
+    "@angular/common": "^13.3.0",
+    "@angular/core": "^13.3.0",
+    "@angular/material": "^13.3.6"
+  },
+  "dependencies": {
+    "cropperjs": "^1.5.12",
+    "tslib": "^2.3.0"
+  }
+}
